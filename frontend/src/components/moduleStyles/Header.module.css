@@ -1,0 +1,38 @@
+.header {
+    border-bottom: 1px solid #ddd;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+}
+
+.header_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* align-content: end; */
+}
+
+div.logo {
+    font-weight: 900;
+    font-size: 2rem;
+    color: #005CA1;
+}
+
+.btn {
+    background-color: #005CA1;
+    color: #fff;
+    padding: 12px 35px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+
+    transition: background-color .3s;
+}
+
+.btn:hover {
+    background-color: #0062AD;
+}
